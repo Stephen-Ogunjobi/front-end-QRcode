@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="C:\Users\hp\OneDrive\Desktop\qrcode\favicon-32x32.png">
+    <title>Frontend Mentor | QR code component</title>
+</head>
+<style>
+    body{
+        background-color: aliceblue;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+    .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 520px;
+        width: 350px;
+        background-color:#fff ;
+        border-radius: 25px;
+    }
+    img{
+        height: 300px;
+        border-radius: 20px;
+        width: 300px;
+    }
+    .text{
+        text-align: center;
+        padding: 10px;
+    }
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution  { color: hsl(228, 45%, 44%); }
+    a{
+        text-decoration: none;
+    }
+    .first{
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+    .second{
+        opacity: 0.5;
+    }
+
+</style>
+<body>
+    <div class="container">
+        <div class="image">
+            <img src="image-qr-code.png" alt="qr code">
+        </div>
+        <div class="text">
+        <p class="first">
+            Improve your front-end skills by building projects
+        </p>
+        <p class="second">
+            Scan the QR to visit the Frontend Mentor and take your coding
+            skills to the next level
+        </p>
+        </div>
+    </div>
+    <div class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        Coded by <a href="#">Stephen Ogunjobi</a>.
+      </div>
+</body>
+</html>
